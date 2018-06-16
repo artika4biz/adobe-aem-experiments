@@ -48,7 +48,7 @@ echo 5. Starting $MAIN_RUN_MODE AEM instance
 echo 
 echo AEM Started with pid "$(cat $CURR_DIR/crx-quickstart/conf/cq.pid)"
 echo Run modes: $MAIN_RUN_MODE,$LOCAL_RUN_MODE
-echo Deub enabled on port $DEBUG_PORT
+echo Debug enabled on port $DEBUG_PORT
 echo JMX enabled on port $JMX_PORT
 echo
 
