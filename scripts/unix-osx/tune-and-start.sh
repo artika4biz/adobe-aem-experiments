@@ -21,3 +21,4 @@ java -jar $OAK_RUN compact install-folder/crx-quickstart/repository/segmentstore
 echo 5. Starting AEM, debug mode, JMX enabled
 java -Dcom.sun.management.jmxremote.port=9999 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -server -Xmx2g  -Xrunjdwp:transport=dt_socket,address=8000,suspend=n,server=y -Dsling.run.modes='author,ysvlocaldev' -Xdebug -jar ./AEM_6.3_Quickstart.jar -p 4502 -gui
 
+ 
