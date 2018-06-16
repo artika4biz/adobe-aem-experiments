@@ -70,7 +70,8 @@ if [ $? -eq 0 ]; then
     echo ✅ AEM started listening on $CQ_PORT port - $DATE 
     echo
     echo Start looking for ERROR level messages in the error.log file
-    echo "☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰" 
+    echo "☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰"
+    echo
     tail -f $CURR_DIR/crx-quickstart/logs/error.log | grep -e ERROR
 else
     echo ❌ AEM did not start correctly ❌
